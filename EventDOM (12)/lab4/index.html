@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <a href="http://google.com">Google</a>
+    <script>
+        const a = document.querySelector('a');
+        a.onclick = () => confirm('Leave for https://google.com?')
+        
+        // function event() {
+        //     confirm('Leave for https://google.com?') 
+        // }
+
+        // a.addEventListener("click",event)
+    </script>
+    
+</body>
+</html>
